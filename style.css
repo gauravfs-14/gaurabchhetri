@@ -197,7 +197,6 @@ body {
   width: 100vw;
   margin-left: 200px;
   background-color: rgb(236, 236, 236);
-  height: 200vh;
 }
 .titleAbout {
   color: #247deb;
@@ -235,6 +234,9 @@ body {
   line-height: 20px;
   margin-top: 9%;
   color: #37659e;
+}
+.abtService {
+  height: 80vh;
 }
 .abtService div {
   display: flex;
@@ -400,21 +402,15 @@ body {
   transition: 0.5s;
 }
 /* work section  */
-.works {
-  height: fit-content;
-}
-.titleWorks {
-  margin-top: 5%;
-}
+
 .workImgs {
   position: relative;
-  top: 20%;
+  top: 5%;
   width: 80%;
   height: 60%;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 .grp1,
 .grp2,
@@ -426,7 +422,6 @@ body {
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
-  width: 45%;
 }
 .workImg img {
   width: 100%;
